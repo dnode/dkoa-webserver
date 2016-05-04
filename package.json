@@ -1,0 +1,23 @@
+{
+  "name": "dkoa-webserver",
+  "description": "Serves all files in the 'www' directory",
+  "version": "1.0.0",
+  "homepage": "http://github.com/dnode/dkoa-webserver",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "bin": {
+    "dkoa-webserver": "src/cli.js"
+  },
+  "dependencies": {
+    "dkoa": "^1.0.0",
+    "dkoa-headers": "^1.0.0",
+    "dkoa-http-auth": "^1.0.0",
+    "dnewrelic": "^1.4.0",
+    "dthrong": "^2.6.0",
+    "koa-compress": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dnode/dkoa-webserver.git"
+  }
+}
